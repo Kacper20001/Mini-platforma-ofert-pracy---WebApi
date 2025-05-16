@@ -1,4 +1,4 @@
-﻿amespace SzkolenieTechniczne.Geo.Controllers
+﻿namespace SzkolenieTechniczne.Geo.Controllers
 {
     public class CityController
     {

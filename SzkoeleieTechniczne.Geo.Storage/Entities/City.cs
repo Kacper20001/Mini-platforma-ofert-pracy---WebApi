@@ -5,11 +5,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SzkolenieTechniczne.Common.Storage.Entitites;
 
 namespace SzkoeleieTechniczne.Geo.Storage.Entities
 {
     [Table("Cities", Schema = "Geo")]
-    public class City
+    public class City : BaseEntity
     {
         [Required]
         public Guid CountryId { get; set; }
