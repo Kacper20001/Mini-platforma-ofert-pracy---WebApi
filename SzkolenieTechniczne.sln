@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobAdvertisement", "JobAdve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Geo.CrossCutting", "SzkolenieTechniczne.Geo.CrossCutting\SzkolenieTechniczne.Geo.CrossCutting.csproj", "{95A2AB64-5AFA-4A44-96D0-959476E63D59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkoeleieTechniczne.Geo.Storage", "SzkoeleieTechniczne.Geo.Storage\SzkoeleieTechniczne.Geo.Storage.csproj", "{3E4F0AC0-376D-4405-87BC-CA0E6147F2C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Geo.Storage", "SzkoeleieTechniczne.Geo.Storage\SzkolenieTechniczne.Geo.Storage.csproj", "{3E4F0AC0-376D-4405-87BC-CA0E6147F2C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzkolenieTechniczne.Common.Storage", "SzkolenieTechniczne.Common.Storage\SzkolenieTechniczne.Common.Storage.csproj", "{BB13A6EF-C99F-4076-8109-7FB7CC696E23}"
 EndProject
