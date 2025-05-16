@@ -25,8 +25,9 @@ namespace SzkoeleieTechniczne.Geo.Storage
         }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=HP_KACPER;Database=geo-dev;Trusted_Connection=True;",
-                x => x.MigrationsHistoryTable("EFMigrationHistory", "Geo"));
+            options.UseSqlServer(@"Server=HP_KACPER;Database=geo-dev;Trusted_Connection=True;Encrypt=False;",
+            x => x.MigrationsHistoryTable("EFMigrationHistory", "Geo"));
+            ;
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
