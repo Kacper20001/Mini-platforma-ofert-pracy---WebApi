@@ -9,7 +9,7 @@ using SzkolenieTechniczne.Common.Storage.Entitites;
 
 namespace SzkolenieTechniczne.Company.Storage.Entities
 {
-    [Table("ContactTypes", Schema = "Comapny")]
+    [Table("ContactTypes", Schema = "Company")]
     public class ContactType : BaseEntity
     {
         [MaxLength(50)]

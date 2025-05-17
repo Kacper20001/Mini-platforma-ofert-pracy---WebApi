@@ -19,6 +19,6 @@ namespace SzkolenieTechniczne.Company.Storage.Entities
         [Required]
         public decimal GrossSalary { get; set; }
         [Required]
-        public short WOtkingWeekHours { get; set; }
+        public short WorkingWeekHours { get; set; }
     }
 }
