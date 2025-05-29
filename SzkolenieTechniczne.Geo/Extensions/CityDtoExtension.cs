@@ -10,7 +10,16 @@ namespace SzkolenieTechniczne.Geo.Extensions
             return new City
             {
                 Id = dto.Id,
-                CountryId = dto.CountryId
+                CountryId = dto.CountryId,
+                Translations = dto.Name.Select(x =>
+                new CityTranslation
+                {
+                    Id = System.Guid.NewGuid(),
+                    CityId = dto.Id,
+                    LanguageCode = x.Key,
+                    Name = x.Value
+                }
+                ).ToList()
             };
         }
     }

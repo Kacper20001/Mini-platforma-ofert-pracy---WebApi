@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SzkolenieTechniczne.Company.CrossCutting.Dtos
 {
-    class JobPositionDto
+    public class JobPositionDto
     {
     }
 }
