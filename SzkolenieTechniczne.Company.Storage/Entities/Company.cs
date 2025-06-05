@@ -24,13 +24,11 @@ namespace SzkolenieTechniczne.Company.Storage.Entities
         public string PhoneNumber { get; set; }
 
         [MaxLength(32)]
-        public string? NIP { get; set; } = null;
+        public string NIP { get; set; } = null;
 
         [MaxLength(16)]
         public string REGON { get; set; }
 
         public ICollection<JobPosition> JobPositions { get; set; } = new HashSet<JobPosition>();
-
-
     }
 }

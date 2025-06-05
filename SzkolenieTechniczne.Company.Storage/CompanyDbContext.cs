@@ -29,7 +29,7 @@ namespace SzkolenieTechniczne.Company.Storage
         }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=HP_KACPER;Database=geo-dev;Trusted_Connection=True;Encrypt=False;",
+            options.UseSqlServer(@"Server=HP_KACPER;Database=company-dev;Trusted_Connection=True;Encrypt=False;",
             x => x.MigrationsHistoryTable("EFMigrationHistory", "Geo"));
             ;
         }

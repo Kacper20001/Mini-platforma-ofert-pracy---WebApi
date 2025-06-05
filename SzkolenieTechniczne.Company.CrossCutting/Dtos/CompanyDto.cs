@@ -19,7 +19,7 @@ namespace SzkolenieTechniczne.Company.CrossCutting.Dtos
 
         [MaxLength(8)]
         public string? PhoneDirectional { get; set; }
-        public SecureString? PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
         [MaxLength(32)]
         public string? NIP { get; set; }
         [MaxLength(16)]

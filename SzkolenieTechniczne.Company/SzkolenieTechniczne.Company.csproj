@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SzkolenieTechniczne.CommonCrossCutting\SzkolenieTechniczne.CommonCrossCutting.csproj" />
     <ProjectReference Include="..\SzkolenieTechniczne.Company.CrossCutting\SzkolenieTechniczne.Company.CrossCutting.csproj" />
     <ProjectReference Include="..\SzkolenieTechniczne.Company.Storage\SzkolenieTechniczne.Company.Storage.csproj" />
   </ItemGroup>
